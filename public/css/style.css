@@ -1,0 +1,109 @@
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Slabo 27px', serif; */
+
+:root {
+  --blue: #061e41;
+  --orange: #fe4002;
+  --white: #fff;
+}
+
+body {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.orange-emphasis {
+  color: var(--orange);
+  font-weight: bold;
+  font-family: Oswald;
+}
+
+.blue-emphasis {
+  color: var(--blue);
+  font-weight: bold;
+  font-family: Oswald;
+}
+
+.white-emphasis {
+  color: var(--white);
+  font-weight: bold;
+  font-family: Oswald;
+}
+
+/* HEADER SECTION HEADER SECTION */
+
+.top {
+  background-color: var(--blue);
+}
+
+.title {
+  font-family: Oswald;
+  color: var(--white);
+}
+
+.subtitle {
+  font-family: 'Slabo 27px';
+  color: var(--orange);
+}
+
+.nav-container {
+  width: 30%;
+}
+
+.nav-container a {
+  font-size: .8rem;
+  color: var(--white);
+}
+
+.nav-container a:hover {
+  text-decoration: underline;
+}
+
+
+/* CURRENT BOOK SECTION CURRENT BOOK SECTION */
+
+.current-book-container {
+  width: 50%;
+}
+
+.book-img-focus {
+  height: 50vh;
+  width: auto;
+  max-width: 330px;
+}
+
+.column-title {
+  color: var(--orange);
+  font-family: Oswald;
+}
+
+.focus-title {
+  font-family: 'Slabo 27px';
+  color: grey;
+}
+
+.meta-data {
+  color: grey;
+  font-family: 'Slabo 27px'
+}
+
+.synopsis {
+  color: grey;
+  font-size: .8rem;
+  max-width: 320px;
+}
+
+iframe {
+  border: 0;
+  width: 70%;
+  height: 450px;
+}
+
+.bottom{
+  background-color: var(--blue);
+}
+
+.bottom p {
+  color: var(--orange);
+  font-family: 'Slabo 27px';
+}
